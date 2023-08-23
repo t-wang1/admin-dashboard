@@ -1,0 +1,141 @@
+html,
+body {
+    background-color: #fff1f2;
+    color: #1e40af;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.column {
+    display: grid;
+    grid-template-rows: repeat(6, 50px);
+    width: 20vw;
+    height: 100vh;
+    padding: 15px;
+    background-color: #fecdd3;
+    color: #9f1239;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(2, 250px);
+    grid-template-columns: repeat(4, 250px);
+    column-gap: 25px;
+    row-gap: 0px;
+    width: 75%;
+    height: 75%;
+    float: right;
+    position: absolute;
+    top: 200px;
+    left: 340px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven {
+    padding: 15px;
+    border: 1px solid #1e40af;
+    border-radius: 20px;
+    background-color: #bfdbfe;
+    height: 200px;
+    font-weight: bold;
+}
+
+#title-one,
+#title-two,
+#title-three,
+#title-five, 
+#title-six, 
+#title-seven {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.four {
+    grid-column: 4 / 5;
+    height: 450px;
+    text-align: center;
+}
+
+#date {
+    font-style: italic;
+}
+
+.line {
+    position: absolute;
+    border-bottom: 1px solid #1e40af;
+    width: 250px;
+    left: 825px;
+}
+
+.header {
+    position: absolute;
+    padding: 15px;
+    top: 0px;
+    left: 320px;
+    background-color: white;
+    height: 13vh;
+    width: 100vw;
+}
+
+.text {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+}
+
+#user {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.pfp {
+    position: absolute;
+    top: 15px;
+    right: 425px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.bell {
+    /* position - make it responsive */
+    position: absolute;
+    top: 10px;
+    left: 950px;
+    /* resizing img */
+    width: 50px;
+    height: auto;
+}
+
+.title {
+    position: absolute;
+    top: 150px;
+    left: 340px;
+    font-size: 30px;
+}
+
+button {
+    margin-right: 20px;
+    width: 75px;
+    position: relative;
+    right: -700px;
+    border-radius: 10px;
+    border-color: #fecdd3;
+    background-color: #fecdd3;
+    color: #9f1239;
+    padding: 5px;
+}
